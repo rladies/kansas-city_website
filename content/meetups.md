@@ -1,6 +1,6 @@
 ---
-title: '2016-05-05T21:48:51-07:00'
-date: 'Github'
+date: '2016-05-05T21:48:51-07:00'
+title: 'Meetups'
 ---
 
 ## [Nerding Out: An R-Ladies Social](https://www.meetup.com/rladies-kansas-city/events/265215598/)
