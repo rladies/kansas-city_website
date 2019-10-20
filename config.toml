@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "A Hugo website"
+title = "R-Ladies Kansas City"
 theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
@@ -13,14 +13,17 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "About"
     url = "/about/"
 [[menu.main]]
-    name = "GitHub"
+    name = "Meetups"
     url = "https://github.com/rstudio/blogdown"
 [[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    name = "GitHub"
+    url = "https://github.com/rstudio/blogdown"
+# [[menu.main]]
+#    name = "Twitter"
+#    url = "https://twitter.com/rstudio"
 
 [params]
-    description = "A website built through Hugo and blogdown."
+    description = "A website built through Hugo and blogdown for the Kansas City chapter of R-Ladies."
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.12.0"
