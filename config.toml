@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://rladieskc.netlify.com/"
 languageCode = "en-us"
 title = "R-Ladies Kansas City"
 theme = "hugo-lithium"
@@ -10,17 +10,26 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
     name = "About"
     url = "/about/"
-[[menu.main]]
-    name = "Meetups"
-    url = "https://github.com/rstudio/blogdown"
+    weight = 2
 [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
-# [[menu.main]]
-#    name = "Twitter"
-#    url = "https://twitter.com/rstudio"
+    url = "/github/"
+    weight = 3
+[[menu.main]]
+    name = "Meetups"
+    url = "/meetups/"
+    weight = 4
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/rladieskc"
+    weight = 5
+
 
 [params]
     description = "A website built through Hugo and blogdown for the Kansas City chapter of R-Ladies."
